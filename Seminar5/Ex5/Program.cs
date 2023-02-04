@@ -4,8 +4,8 @@
 // [1 2 3 4 5] -> 5 8 3
 // [6 7 3 6] -> 36 21
 
-int[] arr = GetRandomArray(5);
-// PrintArray(arr);
+int[] arr = GetRandomArray(9);
+//PrintArray(arr);
 int[] newArray = FindSumOfPairs(new int[] {1, 2, 3, 4, 5});
 PrintArray(newArray);
 
@@ -28,10 +28,10 @@ int[] FindSumOfPairs(int[] array)
     }
 
 
-     if(array.Length % 2 ==1) 
-     {
+    if(array.Length % 2 ==1) 
+    {
         result[newSize - 1] = array[array.Length / 2];
-     }
+    }
     return result;
 }
 
