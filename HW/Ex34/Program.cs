@@ -22,6 +22,7 @@ int GetCountNum(int[] array)
 }
 
 
+
 int[] GetRandomArray(int length)
 {
     int[] result = new int[length];
